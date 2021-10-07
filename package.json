@@ -1,5 +1,5 @@
 {
-  "name": "react-ts-vite-eslint-prettier-scss",
+  "name": "react-ts-vite-eslint-prettier-scss-jest",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -8,7 +8,7 @@
     "type-check": "tsc",
     "serve": "vite preview",
     "lint": "yarn lint:format && yarn lint:fix ",
-    "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --max-warnings=0 --no-ignore",
+    "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --max-warnings=0 --fix --no-ignore",
     "lint:format": "prettier --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,scss,md,json}\"",
     "test": "jest",
     "prepare": "husky install"
@@ -23,6 +23,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.2",
+    "@types/node": "^16.10.3",
     "@types/react": "^17.0.27",
     "@types/react-dom": "^17.0.9",
     "@types/testing-library__jest-dom": "^5.14.1",
@@ -30,7 +31,6 @@
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "@vitejs/plugin-react": "^1.0.2",
-    "babel-eslint": "^10.1.0",
     "babel-jest": "^27.2.4",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
@@ -39,19 +39,14 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "husky": ">=6",
+    "husky": "^7.0.2",
     "jest": "^27.2.4",
     "jest-scss-transform": "^1.0.1",
-    "lint-staged": ">=10",
     "prettier": "^2.4.1",
-    "react-test-renderer": "^17.0.2",
     "sass": "^1.42.1",
     "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3",
     "vite": "^2.6.4"
-  },
-  "lint-staged": {
-    "*.js": "eslint --cache --fix"
   }
 }

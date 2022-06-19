@@ -4,4 +4,3 @@
 npm run format
 # This line add all changed files to THIS commit's staged area
 git add -A .
-npm run test

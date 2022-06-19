@@ -65,5 +65,4 @@ yarn install
 - `format`: Ejecuta Prettier y luego Eslint.
 - `format:lint`: Comprueba y corrige automáticamente.
 - `format:prettier`: Comprueba y corrige automáticamente.
-- `test`: Ejecuta todos los tests.
 - `prepare`: No usar manualmente. Inyecta husky automáticamente después de cada creación/modificación de dependencias.

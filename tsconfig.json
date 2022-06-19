@@ -17,6 +17,6 @@
     "jsx": "react-jsx",
     "typeRoots": ["./node_modules/vite/client.d.ts", "./node_modules/@types"]
   },
-  "include": ["./src", "jest"],
+  "include": ["./src"],
   "exclude": ["node_modules"]
 }

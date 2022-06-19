@@ -14,8 +14,6 @@ module.exports = {
     }
   },
   env: {
-    jasmine: true,
-    jest: true,
     es6: true,
     es2022: true,
     browser: true,

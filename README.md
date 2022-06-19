@@ -66,4 +66,3 @@ yarn install
 - `format:lint`: Check and fix automatically.
 - `format:prettier`: Check and correct automatically.
 - `test`: Execute all tests.
-- `prepare`: Do not use manually. Automatically injects husky after every dependency creation/modification.

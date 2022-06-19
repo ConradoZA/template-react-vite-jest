@@ -10,8 +10,7 @@
     "format": "yarn format:prettier && yarn format:lint ",
     "format:lint": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --max-warnings=0 --fix --no-ignore",
     "format:prettier": "prettier --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,scss,md,json}\"",
-    "test": "jest",
-    "prepare": "husky install"
+    "test": "jest"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -39,7 +38,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "husky": "^8.0.1",
     "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
     "jest-scss-transform": "^1.0.3",

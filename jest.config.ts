@@ -1,5 +1,7 @@
 import type { Config } from '@jest/types';
 
+/* Pasted ALL options, with their default values.
+ Comment/uncomment as you see fit. */
 const config: Config.InitialOptions = {
   // Jest's ESM support is still experimental
   extensionsToTreatAsEsm: ['.ts', '.tsx'],

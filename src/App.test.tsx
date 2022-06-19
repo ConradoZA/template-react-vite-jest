@@ -1,4 +1,4 @@
-import { cleanup, fireEvent, render, RenderResult } from '@testing-library/react';
+import { cleanup, render, RenderResult } from '@testing-library/react';
 
 import App from './App';
 
@@ -10,11 +10,7 @@ describe('App', () => {
   });
   afterEach(cleanup);
 
-  it('should change counter when clicked', () => {
-    const button = documentBody.getByTestId('counter');
-
-    fireEvent.click(button);
-
-    expect(documentBody.getByTestId('counter').innerHTML).toBe('count is: 1');
+  it('should exist', () => {
+    expect(documentBody).toBeTruthy();
   });
 });

@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2022,
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true
@@ -17,16 +17,17 @@ module.exports = {
     jasmine: true,
     jest: true,
     es6: true,
-    es2020: true,
+    es2022: true,
     browser: true,
     amd: true,
     node: true
+    // May be/is overkill. You can delete envs at your own risk.
   },
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
-    'plugin:prettier/recommended' // Make sure this is always the last element in the array.
+    'plugin:prettier/recommended' // Make sure this is always the last element in the array, to take precedence.
   ],
   plugins: ['simple-import-sort', 'prettier'],
   rules: {

@@ -1,4 +1,6 @@
-# PLANTILLA PARA REACT
+# PLANTILLA PARA REACT ⚛️🚀🏁🎉
+
+🇬🇧[English](./README.md)
 
 Incluye:
 
@@ -8,7 +10,7 @@ Incluye:
 
 <br>
 
-## INSTALACIÓN
+## 💻 INSTALACIÓN
 
 **1º**
 
@@ -44,7 +46,7 @@ yarn install
 <br/>
 <br/>
 
-## RAMAS
+## 🌿 RAMAS
 
 - _base_ -> La plantilla sin "extras"
 - _husky_ -> La plantilla base con Husky
@@ -54,7 +56,7 @@ yarn install
 <br/>
 <br/>
 
-## SCRIPTS
+## 📜 SCRIPTS
 
 - `dev`: Levanta el servidor de desarrollo con vite.
 - `build`: Empaqueta la página para desplegarla en producción.
